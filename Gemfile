@@ -19,5 +19,6 @@ group :development do
 end
 group :test do
   gem 'minitest-reporters'
+  gem 'minitest-rails-capybara'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
